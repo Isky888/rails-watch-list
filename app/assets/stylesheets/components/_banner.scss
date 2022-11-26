@@ -1,0 +1,49 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  margin: 15px 15px 0px 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+  position: relative;
+  bottom: 100px;
+  right: 20px;
+}
+
+.banner a {
+  font-size: 25px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  position: relative;
+  bottom: 100px;
+  right: 20px;
+}
+
+.content-container{
+  text-align: left;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  margin: 0px 15px 15px 15px ;
+}
+
+.mini-heading {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.back-button {
+  margin-left: 15px
+}
+
+.back-button:hover {
+  color: white;
+  box-shadow: 0 0 10px rgba(247, 208, 132, 0.2);
+}

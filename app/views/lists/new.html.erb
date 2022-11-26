@@ -1,0 +1,11 @@
+<h1>Create a new List!</h1>
+<%= simple_form_for(@list) do |f|%>
+  <%= f.input :name, class: "form-control"%>
+  <div class="button-container d-flex">
+  <%= f.submit class: "btn btn-dark"%>
+  <form>
+    <input class="btn btn-dark" type="button" value="Back to lists" onclick="history.back()">
+  </form>
+
+</div>
+<%end%>

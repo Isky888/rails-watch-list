@@ -1,0 +1,15 @@
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%=@movie.poster_url %>);">
+  <div class="container">
+    <h1><%= @movie.title %></strong></h1>
+    <a href ="https://www.imdb.com/find?q=<%=@movie.title%>&ref_=nv_sr_sm">click to search on imdb!</a>
+  </div>
+</div>
+
+<div class= "content-container">
+  <p><strong class="mini-heading">Overview:</strong><span> </span><%= @movie.overview%></p>
+  <p><strong class="mini-heading">Rating:</strong><span> </span><%= @movie.rating%></p>
+</div>
+
+<form>
+ <input class="back-button" type="button" value="Back to list" onclick="history.back()">
+</form>

@@ -1,0 +1,11 @@
+<h1>Create a new bookmark!</h1>
+<%= simple_form_for ([@list, @bookmark]) do |f|%>
+  <%= f.input :comment, class: "form-control"%>
+  <%= f.association :movie, class: "form-control"%>
+  <div class="button-container d-flex">
+  <%= f.submit class: "btn btn-dark"%>
+  <form>
+    <input class="btn btn-dark" type="button" value="Back to list" onclick="history.back()">
+  </form>
+</div>
+<%end%>
